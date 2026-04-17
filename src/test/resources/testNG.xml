@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "AutomationDemoUI" >
+    <parameter name = "browser" value = "Chrome" />
+    <test name = "AutomationDemoUI" >
+        <classes>
+            <class name ="TestRunners.runner" />
+        </classes>
+    </test>
+</suite>
